@@ -2,7 +2,8 @@
   "Awake": {
     "prefix": "Awake",
     "body": [
-      "void Awake (){",
+      "void Awake()",
+      "{",
       "    $0",
       "}"
     ],
@@ -11,7 +12,8 @@
   "FixedUpdate": {
     "prefix": "FixedUpdate",
     "body": [
-      "void FixedUpdate (){",
+      "void FixedUpdate()",
+      "{",
       "    $0",
       "}"
     ],
@@ -20,7 +22,8 @@
   "LateUpdate": {
     "prefix": "LateUpdate",
     "body": [
-      "void LateUpdate (){",
+      "void LateUpdate()",
+      "{",
       "    $0",
       "}"
     ],
@@ -29,7 +32,8 @@
   "OnAnimatorIK": {
     "prefix": "OnAnimatorIK",
     "body": [
-      "void OnAnimatorIK (int ${layerIndex}){",
+      "void OnAnimatorIK(int ${layerIndex})",
+      "{",
       "    $0",
       "}"
     ],
@@ -38,7 +42,8 @@
   "OnAnimatorMove": {
     "prefix": "OnAnimatorMove",
     "body": [
-      "void OnAnimatorMove (){",
+      "void OnAnimatorMove()",
+      "{",
       "    $0",
       "}"
     ],
@@ -47,7 +52,8 @@
   "OnApplicationFocus": {
     "prefix": "OnApplicationFocus",
     "body": [
-      "void OnApplicationFocus (bool ${focusStatus}){",
+      "void OnApplicationFocus(bool ${focusStatus})",
+      "{",
       "    $0",
       "}"
     ],
@@ -56,7 +62,8 @@
   "OnApplicationPause": {
     "prefix": "OnApplicationPause",
     "body": [
-      "void OnApplicationPause (bool ${pauseStatus}){",
+      "void OnApplicationPause(bool ${pauseStatus})",
+      "{",
       "    $0",
       "}"
     ],
@@ -65,7 +72,8 @@
   "OnApplicationQuit": {
     "prefix": "OnApplicationQuit",
     "body": [
-      "void OnApplicationQuit (){",
+      "void OnApplicationQuit()",
+      "{",
       "    $0",
       "}"
     ],
@@ -74,7 +82,8 @@
   "OnAudioFilterRead": {
     "prefix": "OnAudioFilterRead",
     "body": [
-      "void OnAudioFilterRead (float[] ${data}, int ${channels}){",
+      "void OnAudioFilterRead(float[] ${data}, int ${channels})",
+      "{",
       "    $0",
       "}"
     ],
@@ -83,7 +92,8 @@
   "OnBecameInvisible": {
     "prefix": "OnBecameInvisible",
     "body": [
-      "void OnBecameInvisible (){",
+      "void OnBecameInvisible()",
+      "{",
       "    $0",
       "}"
     ],
@@ -92,7 +102,8 @@
   "OnBecameVisible": {
     "prefix": "OnBecameVisible",
     "body": [
-      "void OnBecameVisible (){",
+      "void OnBecameVisible()",
+      "{",
       "    $0",
       "}"
     ],
@@ -101,7 +112,8 @@
   "OnCollisionEnter": {
     "prefix": "OnCollisionEnter",
     "body": [
-      "void OnCollisionEnter (Collision ${collision}){",
+      "void OnCollisionEnter(Collision ${collision})",
+      "{",
       "    $0",
       "}"
     ],
@@ -110,7 +122,8 @@
   "OnCollisionEnter2D": {
     "prefix": "OnCollisionEnter2D",
     "body": [
-      "void OnCollisionEnter2D (Collision2D ${collision2D}){",
+      "void OnCollisionEnter2D(Collision2D ${collision2D})",
+      "{",
       "    $0",
       "}"
     ],
@@ -119,7 +132,8 @@
   "OnCollisionExit": {
     "prefix": "OnCollisionExit",
     "body": [
-      "void OnCollisionExit (Collision ${collision}){",
+      "void OnCollisionExit(Collision ${collision})",
+      "{",
       "    $0",
       "}"
     ],
@@ -128,7 +142,8 @@
   "OnCollisionExit2D": {
     "prefix": "OnCollisionExit2D",
     "body": [
-      "void OnCollisionExit2D (Collision2D ${collision2D}){",
+      "void OnCollisionExit2D(Collision2D ${collision2D})",
+      "{",
       "    $0",
       "}"
     ],
@@ -137,7 +152,8 @@
   "OnCollisionStay": {
     "prefix": "OnCollisionStay",
     "body": [
-      "void OnCollisionStay (Collision ${collision}){",
+      "void OnCollisionStay(Collision ${collision})",
+      "{",
       "    $0",
       "}"
     ],
@@ -146,7 +162,8 @@
   "OnCollisionStay2D": {
     "prefix": "OnCollisionStay2D",
     "body": [
-      "void OnCollisionStay2D (Collision2D ${collision2D}){",
+      "void OnCollisionStay2D(Collision2D ${collision2D})",
+      "{",
       "    $0",
       "}"
     ],
@@ -155,7 +172,8 @@
   "OnConnectedToServer": {
     "prefix": "OnConnectedToServer",
     "body": [
-      "void OnConnectedToServer (){",
+      "void OnConnectedToServer()",
+      "{",
       "    $0",
       "}"
     ],
@@ -164,7 +182,8 @@
   "OnControllerColliderHit": {
     "prefix": "OnControllerColliderHit",
     "body": [
-      "void OnControllerColliderHit (ControllerColliderHit ${hit}){",
+      "void OnControllerColliderHit(ControllerColliderHit ${hit})",
+      "{",
       "    $0",
       "}"
     ],
@@ -173,7 +192,8 @@
   "OnDestroy": {
     "prefix": "OnDestroy",
     "body": [
-      "void OnDestroy (){",
+      "void OnDestroy()",
+      "{",
       "    $0",
       "}"
     ],
@@ -182,7 +202,8 @@
   "OnDisable": {
     "prefix": "OnDisable",
     "body": [
-      "void OnDisable (){",
+      "void OnDisable()",
+      "{",
       "    $0",
       "}"
     ],
@@ -191,7 +212,8 @@
   "OnDisconnectedFromServer": {
     "prefix": "OnDisconnectedFromServer",
     "body": [
-      "void OnDisconnectedFromServer (NetworkDisconnection ${info}){",
+      "void OnDisconnectedFromServer(NetworkDisconnection ${info})",
+      "{",
       "    $0",
       "}"
     ],
@@ -200,7 +222,8 @@
   "OnDrawGizmos": {
     "prefix": "OnDrawGizmos",
     "body": [
-      "void OnDrawGizmos (){",
+      "void OnDrawGizmos()",
+      "{",
       "    $0",
       "}"
     ],
@@ -209,7 +232,8 @@
   "OnDrawGizmosSelected": {
     "prefix": "OnDrawGizmosSelected",
     "body": [
-      "void OnDrawGizmosSelected (){",
+      "void OnDrawGizmosSelected()",
+      "{",
       "    $0",
       "}"
     ],
@@ -218,7 +242,8 @@
   "OnEnable": {
     "prefix": "OnEnable",
     "body": [
-      "void OnEnable (){",
+      "void OnEnable()",
+      "{",
       "    $0",
       "}"
     ],
@@ -227,7 +252,8 @@
   "OnFailedToConnect": {
     "prefix": "OnFailedToConnect",
     "body": [
-      "void OnFailedToConnect (NetworkConnectionError ${error}){",
+      "void OnFailedToConnect(NetworkConnectionError ${error})",
+      "{",
       "    $0",
       "}"
     ],
@@ -236,7 +262,8 @@
   "OnFailedToConnectToMasterServer": {
     "prefix": "OnFailedToConnectToMasterServer",
     "body": [
-      "void OnFailedToConnectToMasterServer (NetworkConnectionError ${info}){",
+      "void OnFailedToConnectToMasterServer(NetworkConnectionError ${info})",
+      "{",
       "    $0",
       "}"
     ],
@@ -245,7 +272,8 @@
   "OnGUI": {
     "prefix": "OnGUI",
     "body": [
-      "void OnGUI (){",
+      "void OnGUI()",
+      "{",
       "    $0",
       "}"
     ],
@@ -254,7 +282,8 @@
   "OnJointBreak": {
     "prefix": "OnJointBreak",
     "body": [
-      "void OnJointBreak (float ${breakForce}){",
+      "void OnJointBreak(float ${breakForce})",
+      "{",
       "    $0",
       "}"
     ],
@@ -263,7 +292,8 @@
   "OnLevelWasLoaded": {
     "prefix": "OnLevelWasLoaded",
     "body": [
-      "void OnLevelWasLoaded (int ${level}){",
+      "void OnLevelWasLoaded(int ${level})",
+      "{",
       "    $0",
       "}"
     ],
@@ -272,7 +302,8 @@
   "OnMasterServerEvent": {
     "prefix": "OnMasterServerEvent",
     "body": [
-      "void OnMasterServerEvent (MasterServerEvent ${msEvent}){",
+      "void OnMasterServerEvent(MasterServerEvent ${msEvent})",
+      "{",
       "    $0",
       "}"
     ],
@@ -281,7 +312,8 @@
   "OnMouseDown": {
     "prefix": "OnMouseDown",
     "body": [
-      "void OnMouseDown (){",
+      "void OnMouseDown()",
+      "{",
       "    $0",
       "}"
     ],
@@ -290,7 +322,8 @@
   "OnMouseDrag": {
     "prefix": "OnMouseDrag",
     "body": [
-      "void OnMouseDrag (){",
+      "void OnMouseDrag()",
+      "{",
       "    $0",
       "}"
     ],
@@ -299,7 +332,8 @@
   "OnMouseEnter": {
     "prefix": "OnMouseEnter",
     "body": [
-      "void OnMouseEnter (){",
+      "void OnMouseEnter()",
+      "{",
       "    $0",
       "}"
     ],
@@ -308,7 +342,8 @@
   "OnMouseExit": {
     "prefix": "OnMouseExit",
     "body": [
-      "void OnMouseExit (){",
+      "void OnMouseExit()",
+      "{",
       "    $0",
       "}"
     ],
@@ -317,7 +352,8 @@
   "OnMouseOver": {
     "prefix": "OnMouseOver",
     "body": [
-      "void OnMouseOver (){",
+      "void OnMouseOver()",
+      "{",
       "    $0",
       "}"
     ],
@@ -326,7 +362,8 @@
   "OnMouseUp": {
     "prefix": "OnMouseUp",
     "body": [
-      "void OnMouseUp (){",
+      "void OnMouseUp()",
+      "{",
       "    $0",
       "}"
     ],
@@ -335,7 +372,8 @@
   "OnMouseUpAsButton": {
     "prefix": "OnMouseUpAsButton",
     "body": [
-      "void OnMouseUpAsButton (){",
+      "void OnMouseUpAsButton()",
+      "{",
       "    $0",
       "}"
     ],
@@ -344,7 +382,8 @@
   "OnNetworkInstantiate": {
     "prefix": "OnNetworkInstantiate",
     "body": [
-      "void OnNetworkInstantiate (NetworkMessageInfo ${info}){",
+      "void OnNetworkInstantiate(NetworkMessageInfo ${info})",
+      "{",
       "    $0",
       "}"
     ],
@@ -353,7 +392,8 @@
   "OnParticleCollision": {
     "prefix": "OnParticleCollision",
     "body": [
-      "void OnParticleCollision (GameObject ${other}){",
+      "void OnParticleCollision(GameObject ${other})",
+      "{",
       "    $0",
       "}"
     ],
@@ -362,7 +402,8 @@
   "OnPlayerConnected": {
     "prefix": "OnPlayerConnected",
     "body": [
-      "void OnPlayerConnected (NetworkPlayer ${player}){",
+      "void OnPlayerConnected(NetworkPlayer ${player})",
+      "{",
       "    $0",
       "}"
     ],
@@ -371,7 +412,8 @@
   "OnPlayerDisconnected": {
     "prefix": "OnPlayerDisconnected",
     "body": [
-      "void OnPlayerDisconnected (NetworkPlayer ${player}){",
+      "void OnPlayerDisconnected(NetworkPlayer ${player})",
+      "{",
       "    $0",
       "}"
     ],
@@ -380,7 +422,8 @@
   "OnPostRender": {
     "prefix": "OnPostRender",
     "body": [
-      "void OnPostRender (){",
+      "void OnPostRender()",
+      "{",
       "    $0",
       "}"
     ],
@@ -389,7 +432,8 @@
   "OnPreCull": {
     "prefix": "OnPreCull",
     "body": [
-      "void OnPreCull (){",
+      "void OnPreCull()",
+      "{",
       "    $0",
       "}"
     ],
@@ -398,7 +442,8 @@
   "OnPreRender": {
     "prefix": "OnPreRender",
     "body": [
-      "void OnPreRender (){",
+      "void OnPreRender()",
+      "{",
       "    $0",
       "}"
     ],
@@ -407,7 +452,8 @@
   "OnRectTransformRemoved": {
     "prefix": "OnRectTransformRemoved",
     "body": [
-      "void OnRectTransformRemoved (){",
+      "void OnRectTransformRemoved()",
+      "{",
       "    $0",
       "}"
     ],
@@ -416,7 +462,8 @@
   "OnRenderImage": {
     "prefix": "OnRenderImage",
     "body": [
-      "void OnRenderImage (RenderTexture ${src}, RenderTexture ${dest}){",
+      "void OnRenderImage(RenderTexture ${src}, RenderTexture ${dest})",
+      "{",
       "    $0",
       "}"
     ],
@@ -425,7 +472,8 @@
   "OnRenderObject": {
     "prefix": "OnRenderObject",
     "body": [
-      "void OnRenderObject (){",
+      "void OnRenderObject()",
+      "{",
       "    $0",
       "}"
     ],
@@ -434,7 +482,8 @@
   "OnSerializeNetworkView": {
     "prefix": "OnSerializeNetworkView",
     "body": [
-      "void OnSerializeNetworkView (BitStream ${stream}, NetworkMessageInfo ${info}){",
+      "void OnSerializeNetworkView(BitStream ${stream}, NetworkMessageInfo ${info})",
+      "{",
       "    $0",
       "}"
     ],
@@ -443,7 +492,8 @@
   "OnServerInitialized": {
     "prefix": "OnServerInitialized",
     "body": [
-      "void OnServerInitialized (){",
+      "void OnServerInitialized()",
+      "{",
       "    $0",
       "}"
     ],
@@ -452,7 +502,8 @@
   "OnTriggerEnter": {
     "prefix": "OnTriggerEnter",
     "body": [
-      "void OnTriggerEnter (Collider ${other}){",
+      "void OnTriggerEnter(Collider ${other})",
+      "{",
       "    $0",
       "}"
     ],
@@ -461,7 +512,8 @@
   "OnTriggerEnter2D": {
     "prefix": "OnTriggerEnter2D",
     "body": [
-      "void OnTriggerEnter2D (Collider2D ${other}){",
+      "void OnTriggerEnter2D(Collider2D ${other})",
+      "{",
       "    $0",
       "}"
     ],
@@ -470,7 +522,8 @@
   "OnTriggerExit": {
     "prefix": "OnTriggerExit",
     "body": [
-      "void OnTriggerExit (Collider ${other}){",
+      "void OnTriggerExit(Collider ${other})",
+      "{",
       "    $0",
       "}"
     ],
@@ -479,7 +532,8 @@
   "OnTriggerExit2D": {
     "prefix": "OnTriggerExit2D",
     "body": [
-      "void OnTriggerExit2D (Collider2D ${other}){",
+      "void OnTriggerExit2D(Collider2D ${other})",
+      "{",
       "    $0",
       "}"
     ],
@@ -488,7 +542,8 @@
   "OnTriggerStay": {
     "prefix": "OnTriggerStay",
     "body": [
-      "void OnTriggerStay (Collider ${other}){",
+      "void OnTriggerStay(Collider ${other})",
+      "{",
       "    $0",
       "}"
     ],
@@ -497,7 +552,8 @@
   "OnTriggerStay2D": {
     "prefix": "OnTriggerStay2D",
     "body": [
-      "void OnTriggerStay2D (Collider2D ${other}){",
+      "void OnTriggerStay2D(Collider2D ${other})",
+      "{",
       "    $0",
       "}"
     ],
@@ -506,7 +562,8 @@
   "OnValidate": {
     "prefix": "OnValidate",
     "body": [
-      "void OnValidate (){",
+      "void OnValidate()",
+      "{",
       "    $0",
       "}"
     ],
@@ -515,7 +572,8 @@
   "OnWillRenderObject": {
     "prefix": "OnWillRenderObject",
     "body": [
-      "void OnWillRenderObject (){",
+      "void OnWillRenderObject()",
+      "{",
       "    $0",
       "}"
     ],
@@ -524,7 +582,8 @@
   "Reset": {
     "prefix": "Reset",
     "body": [
-      "void Reset (){",
+      "void Reset()",
+      "{",
       "    $0",
       "}"
     ],
@@ -533,7 +592,8 @@
   "Start": {
     "prefix": "Start",
     "body": [
-      "void Start (){",
+      "void Start()",
+      "{",
       "    $0",
       "}"
     ],
@@ -542,7 +602,8 @@
   "Update": {
     "prefix": "Update",
     "body": [
-      "void Update (){",
+      "void Update()",
+      "{",
       "    $0",
       "}"
     ],
@@ -551,7 +612,8 @@
   "OnBeginDrag": {
     "prefix": "OnBeginDrag",
     "body": [
-      "void OnBeginDrag (PointerEventData ${eventData}){",
+      "void OnBeginDrag(PointerEventData ${eventData})",
+      "{",
       "    $0",
       "}"
     ],
@@ -560,7 +622,8 @@
   "OnDeselect": {
     "prefix": "OnDeselect",
     "body": [
-      "void OnDeselect (BaseEventData ${eventData}){",
+      "void OnDeselect(BaseEventData ${eventData})",
+      "{",
       "    $0",
       "}"
     ],
@@ -569,7 +632,8 @@
   "OnDrag": {
     "prefix": "OnDrag",
     "body": [
-      "void OnDrag (PointerEventData ${eventData}){",
+      "void OnDrag(PointerEventData ${eventData})",
+      "{",
       "    $0",
       "}"
     ],
@@ -578,7 +642,8 @@
   "OnDrop": {
     "prefix": "OnDrop",
     "body": [
-      "void OnDrop (PointerEventData ${eventData}){",
+      "void OnDrop(PointerEventData ${eventData})",
+      "{",
       "    $0",
       "}"
     ],
@@ -587,7 +652,8 @@
   "OnEndDrag": {
     "prefix": "OnEndDrag",
     "body": [
-      "void OnEndDrag (PointerEventData ${eventData}){",
+      "void OnEndDrag(PointerEventData ${eventData})",
+      "{",
       "    $0",
       "}"
     ],
@@ -596,7 +662,8 @@
   "OnInitializePotentialDrag": {
     "prefix": "OnInitializePotentialDrag",
     "body": [
-      "void OnInitializePotentialDrag (PointerEventData ${eventData}){",
+      "void OnInitializePotentialDrag(PointerEventData ${eventData})",
+      "{",
       "    $0",
       "}"
     ],
@@ -605,7 +672,8 @@
   "OnMove": {
     "prefix": "OnMove",
     "body": [
-      "void OnMove (AxisEventData ${eventData}){",
+      "void OnMove(AxisEventData ${eventData})",
+      "{",
       "    $0",
       "}"
     ],
@@ -614,7 +682,8 @@
   "OnRebuildRequested": {
     "prefix": "OnRebuildRequested",
     "body": [
-      "void OnRebuildRequested (){",
+      "void OnRebuildRequested()",
+      "{",
       "    $0",
       "}"
     ],
@@ -623,7 +692,8 @@
   "OnScroll": {
     "prefix": "OnScroll",
     "body": [
-      "void OnScroll (PointerEventData ${eventData}){",
+      "void OnScroll(PointerEventData ${eventData})",
+      "{",
       "    $0",
       "}"
     ],
@@ -632,7 +702,8 @@
   "OnSelect": {
     "prefix": "OnSelect",
     "body": [
-      "void OnSelect (BaseEventData ${eventData}){",
+      "void OnSelect(BaseEventData ${eventData})",
+      "{",
       "    $0",
       "}"
     ],
@@ -641,7 +712,8 @@
   "OnSubmit": {
     "prefix": "OnSubmit",
     "body": [
-      "void OnSubmit (BaseEventData ${eventData}){",
+      "void OnSubmit(BaseEventData ${eventData})",
+      "{",
       "    $0",
       "}"
     ],
@@ -650,7 +722,8 @@
   "OnTransformChildrenChanged": {
     "prefix": "OnTransformChildrenChanged",
     "body": [
-      "void OnTransformChildrenChanged (){",
+      "void OnTransformChildrenChanged()",
+      "{",
       "    $0",
       "}"
     ],
@@ -659,7 +732,8 @@
   "OnBeforeSerialize": {
     "prefix": "OnBeforeSerialize",
     "body": [
-      "void OnBeforeSerialize (){",
+      "void OnBeforeSerialize()",
+      "{",
       "    $0",
       "}"
     ],
@@ -668,7 +742,8 @@
   "OnBeforeTransformParentChanged": {
     "prefix": "OnBeforeTransformParentChanged",
     "body": [
-      "void OnBeforeTransformParentChanged (){",
+      "void OnBeforeTransformParentChanged()",
+      "{",
       "    $0",
       "}"
     ],
@@ -677,7 +752,8 @@
   "OnCanvasGroupChanged": {
     "prefix": "OnCanvasGroupChanged",
     "body": [
-      "void OnCanvasGroupChanged (){",
+      "void OnCanvasGroupChanged()",
+      "{",
       "    $0",
       "}"
     ],
@@ -686,7 +762,8 @@
   "OnDidApplyAnimationProperties": {
     "prefix": "OnDidApplyAnimationProperties",
     "body": [
-      "void OnDidApplyAnimationProperties (){",
+      "void OnDidApplyAnimationProperties()",
+      "{",
       "    $0",
       "}"
     ],
@@ -695,7 +772,8 @@
   "OnFillVBO": {
     "prefix": "OnFillVBO",
     "body": [
-      "void OnFillVBO (List&lt;UIVertex&gt; ${vbo}){",
+      "void OnFillVBO(List&lt;UIVertex&gt; ${vbo})",
+      "{",
       "    $0",
       "}"
     ],
@@ -704,7 +782,8 @@
   "OnPointerClick": {
     "prefix": "OnPointerClick",
     "body": [
-      "void OnPointerClick (PointerEventData ${eventData}){",
+      "void OnPointerClick(PointerEventData ${eventData})",
+      "{",
       "    $0",
       "}"
     ],
@@ -713,7 +792,8 @@
   "OnPointerDown": {
     "prefix": "OnPointerDown",
     "body": [
-      "void OnPointerDown (PointerEventData ${eventData}){",
+      "void OnPointerDown(PointerEventData ${eventData})",
+      "{",
       "    $0",
       "}"
     ],
@@ -722,7 +802,8 @@
   "OnPointerEnter": {
     "prefix": "OnPointerEnter",
     "body": [
-      "void OnPointerEnter (PointerEventData ${eventData}){",
+      "void OnPointerEnter(PointerEventData ${eventData})",
+      "{",
       "    $0",
       "}"
     ],
@@ -731,7 +812,8 @@
   "OnPointerExit": {
     "prefix": "OnPointerExit",
     "body": [
-      "void OnPointerExit (PointerEventData ${eventData}){",
+      "void OnPointerExit(PointerEventData ${eventData})",
+      "{",
       "    $0",
       "}"
     ],
@@ -740,7 +822,8 @@
   "OnPointerUp": {
     "prefix": "OnPointerUp",
     "body": [
-      "void OnPointerUp (PointerEventData ${eventData}){",
+      "void OnPointerUp(PointerEventData ${eventData})",
+      "{",
       "    $0",
       "}"
     ],
@@ -749,7 +832,8 @@
   "OnRectTransformDimensionsChange": {
     "prefix": "OnRectTransformDimensionsChange",
     "body": [
-      "void OnRectTransformDimensionsChange (){",
+      "void OnRectTransformDimensionsChange()",
+      "{",
       "    $0",
       "}"
     ],
@@ -758,7 +842,8 @@
   "OnSiblingGraphicEnabledDisabled": {
     "prefix": "OnSiblingGraphicEnabledDisabled",
     "body": [
-      "void OnSiblingGraphicEnabledDisabled (){",
+      "void OnSiblingGraphicEnabledDisabled()",
+      "{",
       "    $0",
       "}"
     ],
@@ -767,7 +852,8 @@
   "OnTransformParentChanged": {
     "prefix": "OnTransformParentChanged",
     "body": [
-      "void OnTransformParentChanged (){",
+      "void OnTransformParentChanged()",
+      "{",
       "    $0",
       "}"
     ],
@@ -776,7 +862,8 @@
   "OnUpdateSelected": {
     "prefix": "OnUpdateSelected",
     "body": [
-      "void OnUpdateSelected (BaseEventData ${eventData}){",
+      "void OnUpdateSelected(BaseEventData ${eventData})",
+      "{",
       "    $0",
       "}"
     ],
@@ -785,7 +872,8 @@
   "UpdateGeometry": {
     "prefix": "UpdateGeometry",
     "body": [
-      "void UpdateGeometry (){",
+      "void UpdateGeometry()",
+      "{",
       "    $0",
       "}"
     ],
@@ -794,7 +882,8 @@
   "UpdateMaterial": {
     "prefix": "UpdateMaterial",
     "body": [
-      "void UpdateMaterial (){",
+      "void UpdateMaterial()",
+      "{",
       "    $0",
       "}"
     ],
@@ -803,7 +892,8 @@
   "OnAssignMaterialModel": {
     "prefix": "OnAssignMaterialModel",
     "body": [
-      "Material OnAssignMaterialModel (Material ${material}, Renderer ${renderer}){",
+      "Material OnAssignMaterialModel(Material ${material}, Renderer ${renderer})",
+      "{",
       "    $0",
       "}"
     ],
@@ -812,7 +902,8 @@
   "OnHierarchyChange": {
     "prefix": "OnHierarchyChange",
     "body": [
-      "void OnHierarchyChange (){",
+      "void OnHierarchyChange()",
+      "{",
       "    $0",
       "}"
     ],
@@ -821,7 +912,8 @@
   "OnInspectorUpdate": {
     "prefix": "OnInspectorUpdate",
     "body": [
-      "void OnInspectorUpdate (){",
+      "void OnInspectorUpdate()",
+      "{",
       "    $0",
       "}"
     ],
@@ -830,7 +922,8 @@
   "OnLostFocus": {
     "prefix": "OnLostFocus",
     "body": [
-      "void OnLostFocus (){",
+      "void OnLostFocus()",
+      "{",
       "    $0",
       "}"
     ],
@@ -839,7 +932,8 @@
   "OnPostprocessAllAssets": {
     "prefix": "OnPostprocessAllAssets",
     "body": [
-      "void OnPostprocessAllAssets (string[] ${importedAssets}, string[] ${deletedAssets}, string[] ${movedAssets}, string[] ${movedFromPath}){",
+      "void OnPostprocessAllAssets(string[] ${importedAssets}, string[] ${deletedAssets}, string[] ${movedAssets}, string[] ${movedFromPath})",
+      "{",
       "    $0",
       "}"
     ],
@@ -848,7 +942,8 @@
   "OnPostprocessAssetbundleNameChanged": {
     "prefix": "OnPostprocessAssetbundleNameChanged",
     "body": [
-      "void OnPostprocessAssetbundleNameChanged (string ${assetPath}, string ${prevoiusAssetBundleName}, string ${newAssetBundleName}){",
+      "void OnPostprocessAssetbundleNameChanged(string ${assetPath}, string ${prevoiusAssetBundleName}, string ${newAssetBundleName})",
+      "{",
       "    $0",
       "}"
     ],
@@ -857,7 +952,8 @@
   "OnPostprocessAudio": {
     "prefix": "OnPostprocessAudio",
     "body": [
-      "void OnPostprocessAudio (AudioClip ${clip}){",
+      "void OnPostprocessAudio(AudioClip ${clip})",
+      "{",
       "    $0",
       "}"
     ],
@@ -866,7 +962,8 @@
   "OnPostprocessGameObjectWithUserProperties": {
     "prefix": "OnPostprocessGameObjectWithUserProperties",
     "body": [
-      "void OnPostprocessGameObjectWithUserProperties (GameObject ${root}, string[] ${propNames}, object[] ${values}){",
+      "void OnPostprocessGameObjectWithUserProperties(GameObject ${root}, string[] ${propNames}, object[] ${values})",
+      "{",
       "    $0",
       "}"
     ],
@@ -875,7 +972,8 @@
   "OnPostprocessModel": {
     "prefix": "OnPostprocessModel",
     "body": [
-      "void OnPostprocessModel (GameObject ${root}){",
+      "void OnPostprocessModel(GameObject ${root})",
+      "{",
       "    $0",
       "}"
     ],
@@ -884,7 +982,8 @@
   "OnPostprocessSpeedTree": {
     "prefix": "OnPostprocessSpeedTree",
     "body": [
-      "void OnPostprocessSpeedTree (GameObject ${root}){",
+      "void OnPostprocessSpeedTree(GameObject ${root})",
+      "{",
       "    $0",
       "}"
     ],
@@ -893,7 +992,8 @@
   "OnPostprocessSprites": {
     "prefix": "OnPostprocessSprites",
     "body": [
-      "void OnPostprocessSprites (Texture2D ${texture}, Sprite[] ${sprites}){",
+      "void OnPostprocessSprites(Texture2D ${texture}, Sprite[] ${sprites})",
+      "{",
       "    $0",
       "}"
     ],
@@ -902,7 +1002,8 @@
   "OnPostprocessTexture": {
     "prefix": "OnPostprocessTexture",
     "body": [
-      "void OnPostprocessTexture (Texture2D ${texture}){",
+      "void OnPostprocessTexture(Texture2D ${texture})",
+      "{",
       "    $0",
       "}"
     ],
@@ -911,7 +1012,8 @@
   "OnPreprocessAudio": {
     "prefix": "OnPreprocessAudio",
     "body": [
-      "void OnPreprocessAudio (){",
+      "void OnPreprocessAudio()",
+      "{",
       "    $0",
       "}"
     ],
@@ -920,7 +1022,8 @@
   "OnPreprocessModel": {
     "prefix": "OnPreprocessModel",
     "body": [
-      "void OnPreprocessModel (){",
+      "void OnPreprocessModel()",
+      "{",
       "    $0",
       "}"
     ],
@@ -929,7 +1032,8 @@
   "OnPreprocessSpeedTree": {
     "prefix": "OnPreprocessSpeedTree",
     "body": [
-      "void OnPreprocessSpeedTree (){",
+      "void OnPreprocessSpeedTree()",
+      "{",
       "    $0",
       "}"
     ],
@@ -938,7 +1042,8 @@
   "OnPreprocessTexture": {
     "prefix": "OnPreprocessTexture",
     "body": [
-      "void OnPreprocessTexture (){",
+      "void OnPreprocessTexture()",
+      "{",
       "    $0",
       "}"
     ],
@@ -947,7 +1052,8 @@
   "OnProjectChange": {
     "prefix": "OnProjectChange",
     "body": [
-      "void OnProjectChange (){",
+      "void OnProjectChange()",
+      "{",
       "    $0",
       "}"
     ],
@@ -956,7 +1062,8 @@
   "OnSceneGUI": {
     "prefix": "OnSceneGUI",
     "body": [
-      "void OnSceneGUI (){",
+      "void OnSceneGUI()",
+      "{",
       "    $0",
       "}"
     ],
@@ -965,7 +1072,8 @@
   "OnSelectionChange": {
     "prefix": "OnSelectionChange",
     "body": [
-      "void OnSelectionChange (){",
+      "void OnSelectionChange()",
+      "{",
       "    $0",
       "}"
     ],
@@ -974,7 +1082,8 @@
   "OnWillCreateAsset": {
     "prefix": "OnWillCreateAsset",
     "body": [
-      "void OnWillCreateAsset (string ${path}){",
+      "void OnWillCreateAsset(string ${path})",
+      "{",
       "    $0",
       "}"
     ],
@@ -983,7 +1092,8 @@
   "OnWillDeleteAsset": {
     "prefix": "OnWillDeleteAsset",
     "body": [
-      "AssetDeleteResult OnWillDeleteAsset (string ${assetPath}, RemoveAssetOptions ${option}){",
+      "AssetDeleteResult OnWillDeleteAsset(string ${assetPath}, RemoveAssetOptions ${option})",
+      "{",
       "    $0",
       "}"
     ],
@@ -992,7 +1102,8 @@
   "OnWillMoveAsset": {
     "prefix": "OnWillMoveAsset",
     "body": [
-      "AssetMoveResult OnWillMoveAsset (string ${oldPath}, string ${newPath}){",
+      "AssetMoveResult OnWillMoveAsset(string ${oldPath}, string ${newPath})",
+      "{",
       "    $0",
       "}"
     ],
@@ -1001,7 +1112,8 @@
   "OnWillSaveAssets": {
     "prefix": "OnWillSaveAssets",
     "body": [
-      "void OnWillSaveAssets (string[] ${paths}){",
+      "void OnWillSaveAssets(string[] ${paths})",
+      "{",
       "    $0",
       "}"
     ],
@@ -1010,7 +1122,8 @@
   "OnWizardCreate": {
     "prefix": "OnWizardCreate",
     "body": [
-      "void OnWizardCreate (){",
+      "void OnWizardCreate()",
+      "{",
       "    $0",
       "}"
     ],
@@ -1019,7 +1132,8 @@
   "OnWizardOtherButton": {
     "prefix": "OnWizardOtherButton",
     "body": [
-      "void OnWizardOtherButton (){",
+      "void OnWizardOtherButton()",
+      "{",
       "    $0",
       "}"
     ],
@@ -1028,7 +1142,8 @@
   "OnWizardUpdate": {
     "prefix": "OnWizardUpdate",
     "body": [
-      "void OnWizardUpdate (){",
+      "void OnWizardUpdate()",
+      "{",
       "    $0",
       "}"
     ],
